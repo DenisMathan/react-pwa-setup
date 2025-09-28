@@ -1,5 +1,5 @@
 import { SquareButton } from './buttons/squareButton';
-import { menuStore } from '../functions/zustand';
+import { menuStore } from '../services/zustand';
 import './navbar.scss'
 
 export function Navbar() {

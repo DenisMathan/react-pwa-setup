@@ -1,9 +1,9 @@
 import { type ReactNode} from 'react';
 import './content.scss'
-import { SwipeListener } from '../functions/swipe';
+import { SwipeListener } from '../services/swipe';
 import { useEffect, useRef } from 'react';
 import { SettingsView } from '../views/settings/SettingsView';
-import { menuStore } from '../functions/zustand';
+import { menuStore } from '../services/zustand';
 
 type ContentProps = {
   children: ReactNode;
