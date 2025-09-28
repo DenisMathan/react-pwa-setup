@@ -1,0 +1,13 @@
+.project {
+    height:6em;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    align-content: center;
+}
+
+.menu {
+    height: 4rem;
+    width: 4rem; 
+}

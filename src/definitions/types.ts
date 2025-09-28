@@ -1,0 +1,1 @@
+export type ProjectType = {id?:string, name:string, created: number, updated: number}

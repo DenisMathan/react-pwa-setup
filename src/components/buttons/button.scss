@@ -1,0 +1,17 @@
+.squareButton {
+  button {
+    background-color: transparent;
+    border-color: transparent;
+    img {
+      width: 100%;
+      height: 100%;
+      transition: transform 1s;
+    }
+      // background-color: red;
+      .rotating.active {
+        transform: rotateZ(-180deg);
+      
+    }
+
+  }
+}

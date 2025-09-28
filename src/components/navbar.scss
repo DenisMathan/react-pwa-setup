@@ -1,0 +1,30 @@
+.navbar{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    justify-content: center;
+    align-content: center;
+    background-color: #075c5c;
+    z-index: 1;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    img {
+        height: 4em;
+        margin-left: 1em;
+    }
+}
+
+.buttonContainer {
+    align-self: center;
+    justify-self: center;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
